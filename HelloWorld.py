@@ -1,4 +1,4 @@
 def print_message(message):
     print(message)
-
-print_message("Targeting 1 $M is underestimating myself!")
+message = input("Enter any message that you want to display:  ")
+print_message(message)
