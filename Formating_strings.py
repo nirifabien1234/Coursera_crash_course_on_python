@@ -10,8 +10,11 @@
 # print(student_grade("Jesse", 85))
 
 # DEALING WITH DECIMAL PLACES WITH STINGS
-price = 7.5
-with_tax = 1.09
-print(price, with_tax)
+# price = 7.5
+# with_tax = 1.09
+# print(price, with_tax)
 
-print("Base price: ${:.2f}. With Tax: ${:.2f}".format(price, with_tax))
+# print("Base price: ${:.2f}. With Tax: ${:.2f}".format(price, with_tax))
+message = "Fabien is the Fabien best programmer in the world"
+message = message.replace(message.split()[0], "Fab")
+print(message)
